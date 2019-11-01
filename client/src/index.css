@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
-  color: white;
+  color: #E2E2E2;
 }
 
 code {
@@ -15,6 +15,6 @@ code {
 }
 
 .light-mode{
-  color: black;
-  background-color: white;
+  color: #282c34;
+  background-color: #E2E2E2;
 }
