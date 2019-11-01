@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
+import LightButton from './components/LightButton';
 
 class App extends Component {
   constructor() {
@@ -21,14 +22,12 @@ class App extends Component {
       .catch(err => console.log("No luck with that data", err))
   }
 
-  // componentDidUpdate() {
-
-  // }
-
   render() {
     const playerList = this.state.players;
+
     return (
       <div className="App">
+        <LightButton />
         <ul>
           {playerList.map(player => {
             return (
