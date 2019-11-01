@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className="App">
         <LightButton />
-        <ul>
+        <ul data-testid="unordered-list">
           {playerList.map(player => {
             return (
               <li key={player.id}>
